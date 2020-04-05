@@ -1,21 +1,161 @@
 body{
-background-color:#bbded6;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 150%;
+   
+    color: #40514e;
 }
+/* div{
+    background-color: #E4F9F5;
+ } */
 
-hr{
-border-color:grey;
-border-style:none;
-border-top-style: dotted;
-height:0;
-width: 5%;
-border-width:5px;
-}
 
+ p{
+     line-height: 2;
+ }
 h1{
-  color:#66BFBF;
-  font-style: oblique;
+    font-size: 5.625rem ;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    /* line-height: 2; */
+}
+
+h2{
+    font-weight: normal;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    margin-bottom: 10px;
 }
 
 h3{
-  color:#66BFCE;
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+hr{
+    border-style: dotted;
+    color: #757583d8;
+    width: 4%;
+    border-width: 5px;
+    border-bottom: none;
+
+}
+/* ///////////////////////////////////////// CLASS TAG /////////////////////////////////////////// */
+.top-container{
+    /* background-color: #E4F9F5; */
+    position: relative;
+    padding: 100px;   
+}
+
+.middle-container{
+    /* background-color: white; */
+}
+.bottom-container{
+    margin: 20px 0 0 0;
+    background-color: #66BFBF;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 150px;
+    bottom: 300px;
+    margin: 100px;
+}
+
+.profile-pic{
+    margin-top: 10px;
+    border-radius: 10cm;
+    height: 200px;
+    width: 200px;
+}
+
+.coding-pic{
+    height: 100px;
+}
+
+.coding{
+    width: 35%;
+    float: left;
+    margin-right: 20px;
+}
+.footballer{
+    margin: 20px;
+    width: 35%;
+    float: right;
+
+}
+.foodoholic{
+    margin-right:20px ;
+    width: 35%;
+    float: left;
+    
+}
+
+
+.footer-link{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+
+.footer-link:hover{
+    color: #EAF6F6;
+}
+.skill-row{
+    margin: 100px auto ;
+    width: 50%;
+    text-align: left;
+}
+ 
+.myButton {
+	background-color:#66bfbf;
+	border-radius:10px;
+	border:1px solid #49adad;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#3fd6d6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* /////////////////////////////////////////ID TAG /////////////////////////////////////////// */ 
+
+#inc{
+    color: #EAF6F6;
+    margin-bottom:0 ;
+    font-size: 0.75rem;
+    padding: 10px 20px;
+}
+#inc:hover{
+color:#757583d8;
+}
+
+#intro{
+    width: 30%;
+    margin: auto;
 }
